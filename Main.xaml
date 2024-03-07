@@ -1,0 +1,212 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:Annotation.AnnotationText="UPTF00000088eyI8SGVscExpbms+a19fQmFja2luZ0ZpZWxkIjpudWxsLCI8SW5pdGlhbFRvb2x0aXA+a19fQmFja2luZ0ZpZWxkIjpudWxsLCI8VmVyc2lvbj5rX19CYWNraW5nRmllbGQiOjF9" sap:VirtualizedContainerService.HintSize="841.3333333333334,2206.6666666666665" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.ExtractData</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.Excel.Activities</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="851.3333333333334,2142" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Sequence sap:VirtualizedContainerService.HintSize="789.3333333333334,2054" sap2010:WorkflowViewState.IdRef="Sequence_3">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <ui:OpenBrowser AutomaticallyDownloadWebDriver="{x:Null}" CommunicationMethod="{x:Null}" Hidden="{x:Null}" NewSession="{x:Null}" Private="{x:Null}" UiBrowser="{x:Null}" BrowserType="Edge" DisplayName="Open Browser" sap:VirtualizedContainerService.HintSize="727.3333333333334,1943.3333333333333" sap2010:WorkflowViewState.IdRef="OpenBrowser_1" Url="https://www.booking.com/">
+        <ui:OpenBrowser.Body>
+          <ActivityAction x:TypeArguments="x:Object">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="693.3333333333334,1793.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_2">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Edge: Booking.com | Official site | The best hotels, flights, car rentals &amp; accommodatio" sap:VirtualizedContainerService.HintSize="631.3333333333334,1708.6666666666667" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="c459a409-fcc8-4d51-ae74-0902a1c40541" Version="V2">
+                <uix:NApplicationCard.Body>
+                  <ActivityAction x:TypeArguments="x:Object">
+                    <ActivityAction.Argument>
+                      <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                    </ActivityAction.Argument>
+                    <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="514.6666666666666,1466.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                      <Sequence.Variables>
+                        <Variable x:TypeArguments="sd:DataTable" Default="[New System.Data.DataTable]" Name="ExtractDataTable" />
+                      </Sequence.Variables>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="452.6666666666667,386.6666666666667" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+                        <ui:CommentOut.Body>
+                          <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="416,266.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'PATH'" sap:VirtualizedContainerService.HintSize="354,182" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c459a409-fcc8-4d51-ae74-0902a1c40541" Version="V3">
+                              <uix:NClick.Target>
+                                <uix:TargetAnchorable BrowserURL="https://www.booking.com/" DesignTimeRectangle="135, 650, 36, 29" DesignTimeScaleFactor="1.5" ElementType="Icon" FriendlyName="'PATH'" FullSelectorArgument="&lt;webctrl parentid='indexsearch' tag='path' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='indexsearch' tag='path' type='' class='' aaname='' /&gt;" Guid="ac0241f7-48a8-4b7d-ace5-ccfd586e74d6" InformativeScreenshot="922495e6d721b030ba0e360fb7f92b9b.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Booking.com | Official site | The best hotels, flights, car rentals &amp;amp; accommodations' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive" />
+                              </uix:NClick.Target>
+                            </uix:NClick>
+                          </Sequence>
+                        </ui:CommentOut.Body>
+                      </ui:CommentOut>
+                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Kandy'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="452.6666666666667,262.6666666666667" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="c459a409-fcc8-4d51-ae74-0902a1c40541" Text="Colombo" Version="V3">
+                        <uix:NTypeInto.Target>
+                          <uix:TargetAnchorable BrowserURL="https://www.booking.com/" CvElementArea="109, 622, 578, 85" CvType="InputBox" DesignTimeRectangle="171, 604, 459, 54" DesignTimeScaleFactor="1.5" ElementType="InputBox" FriendlyName="'Kandy'" FullSelectorArgument="&lt;webctrl id=':re:' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id=':re:' tag='INPUT' type='' class='eb46370fe1' aaname='' /&gt;" Guid="93218806-9340-4710-ae86-367b0fd41d7e" InformativeScreenshot="71e26fdb2736a0288075efa5a70aed07.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Booking.com | Official site | The best hotels, flights, car rentals &amp;amp; accommodations' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive" />
+                        </uix:NTypeInto.Target>
+                      </uix:NTypeInto>
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Search'" sap:VirtualizedContainerService.HintSize="452.6666666666667,199.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c459a409-fcc8-4d51-ae74-0902a1c40541" Version="V3">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="https://www.booking.com/" CvElementArea="1584, 586, 172, 90" CvTextArea="1619, 617, 94, 30" CvTextArgument="Search" CvType="Button" DesignTimeRectangle="1622, 610, 90, 42" DesignTimeScaleFactor="1.5" ElementType="Text" FriendlyName="'Search'" FullSelectorArgument="&lt;webctrl aaname='Search' parentid='indexsearch' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Search' parentid='indexsearch' tag='SPAN' type='' class='e4adce92df' check:innerText='Search' /&gt;" Guid="2c24fdf9-781b-4a6b-86fe-fb4d0b75d43a" InformativeScreenshot="1fe27a4c3c90d46927e29fdb565a557a.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Booking.com | Official site | The best hotels, flights, car rentals &amp;amp; accommodations' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                <uix:Target CvElementArea="1584, 586, 172, 90" CvTextArea="1619, 617, 94, 30" CvTextArgument="Search" CvType="Button" DesignTimeRectangle="1586, 591, 162, 80" ElementType="Button" FriendlyName="'Search'" FullSelectorArgument="&lt;webctrl tag='BUTTON' type='submit' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='submit' class='a83ed08757 c21c56c305 a4c1805887 f671049264 d2529514af c082d89982 cceeb8986b' aaname='Search' check:innerText='Search' /&gt;" SearchSteps="FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NClick.Target>
+                      </uix:NClick>
+                      <uix:NExtractData AppendResults="False" ContinueOnError="True" DataTable="[ExtractDataTable]" DisplayName="Extract Table Data" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Structured' AddCvHeader='true' IsScrollEnabled='false'&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column0' Name='New column 0'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;true&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column1' Name='New column 1'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;true&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column2' Name='New column 2'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&lt;/Table&gt;" ExtractMetadata="&lt;extract&gt;&lt;row exact='1'&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' idx='3' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' idx='3' /&gt;&lt;webctrl tag='div' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;/row&gt;&lt;column exact='1' name='Column0' attr='fulltext'&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' idx='3' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' idx='3' /&gt;&lt;webctrl tag='div' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='h3' idx='1' /&gt;&lt;webctrl tag='a' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;/column&gt;&lt;column exact='1' name='Column1' attr='fulltext'&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' idx='3' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' idx='3' /&gt;&lt;webctrl tag='div' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='a' idx='1' /&gt;&lt;webctrl tag='span' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;/column&gt;&lt;column exact='1' name='Column2' attr='fulltext'&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' idx='3' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' idx='3' /&gt;&lt;webctrl tag='div' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='4' /&gt;&lt;/column&gt;&lt;/extract&gt;" sap:VirtualizedContainerService.HintSize="452.6666666666667,200" sap2010:WorkflowViewState.IdRef="NExtractData_1" LimitExtractionTo="None" MaximumResults="0" ScopeIdentifier="c459a409-fcc8-4d51-ae74-0902a1c40541" Version="V3">
+                        <uix:NExtractData.Target>
+                          <uix:TargetAnchorable DesignTimeRectangle="17, 83, 1825, 9887" DesignTimeScaleFactor="1.5" FriendlyName="'ColomboCheck-in Date'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' parentid='bodyconstraint-inner' tag='DIV' /&gt;" Guid="24201eb6-76c3-4a9c-b6d9-9ba8885a1acb" InformativeScreenshot="5718dd3d5324e6cbda5eb54477332a9e.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Booking.com: Hotels in Colombo. Book your hotel now!' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" />
+                        </uix:NExtractData.Target>
+                      </uix:NExtractData>
+                      <ui:ExcelApplicationScope Password="{x:Null}" DisplayName="Excel Application Scope" sap:VirtualizedContainerService.HintSize="452.6666666666667,330.6666666666667" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_1" InstanceCachePeriod="3000" WorkbookPath="Data\Data.xlsx">
+                        <ui:ExcelApplicationScope.Body>
+                          <ActivityAction x:TypeArguments="ui:WorkbookApplication">
+                            <ActivityAction.Argument>
+                              <DelegateInArgument x:TypeArguments="ui:WorkbookApplication" Name="ExcelWorkbookScope" />
+                            </ActivityAction.Argument>
+                            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,195.33333333333334" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                              <ui:ExcelWriteRange AddHeaders="False" DataTable="[ExtractDataTable]" DisplayName="Write Range" sap:VirtualizedContainerService.HintSize="354,110.66666666666667" sap2010:WorkflowViewState.IdRef="ExcelWriteRange_1" SheetName="Sheet1" StartingCell="A1" />
+                            </Sequence>
+                          </ActivityAction>
+                        </ui:ExcelApplicationScope.Body>
+                      </ui:ExcelApplicationScope>
+                    </Sequence>
+                  </ActivityAction>
+                </uix:NApplicationCard.Body>
+                <uix:NApplicationCard.TargetApp>
+                  <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Edge" IconBase64="iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAABTnSURBVGhDvZl3WJRX2ofJGkV6J5qYT2OLRhAUpSiiaFDpgqggCiKiYEUFpPcuzYZIkWJDkCJIF5hhZphhaENvQxEVLIkkm2w2u34fv++8w2Dixqy7SXaf6/pdXBd/zHvfz3nOeTmDyB9RilZOrgsT8mgrinsmVKoHX6vQh6FCHyLhkwxApa4PqoweqDK78EUZa2JZTjF/QWRMgYSamq7wI/77pWzl7LriFpevVjs+qU4bx0raE6jSRqFKHxHCD2IFgV9R108EeqDC6CYCHSTtUKvnQZ3djFUcLjTqGa9X3LzeKqWu8t+RUbZycVUrHpnQoL3CatpLrKI9ByWgRgRWCgRG/0Ggj4QS6CKZElBltk0JsJuwhsvG2kYmdFpqoF13b+KTfeauwkf9sSWpqqOrnscfX0v7M9bQJqBB+1og8AaegK+kPyKhxmeQhMALBHqnwuj8mQCPrEKLQGB1AwfazTSSGujyKrCpowjraWnjsqs//+NW5DP3K6lra/88ScGvpX1LBL4hAlMroE4fI6EEpuBVp+eeTkaHTrpPpwS6BJkSaCNpxUpWC1kFLhGoJytQJxDQa3sgENjanY3tPTcmVcMcUoUIv71UU9itWrS/QJP2HYGnuk/BT3V/NZ2MDxFQEwqoks7/JEDB9xDwbgH8F3WdZBU6iAQl0EIEmoUCHGg11UCn+SE28EqxuTMf23qyYTJwnSQNBrUhfCHKv1/qt7r4WrQf8JMA1f0JEiJAf0HyjAg8JQKPicCQQGBqdEjXCfwXdAp8Op0k7YKokBWgJNTZDWQPMKHZSBcI6LZSAnkwICtg3J8OM34yLIcvwqIn4jvxT2TnC7H+tVpF4HVofyXw0wLU+HwjgNcQwD9/I0CNzkpB96nOT8/9NHjHz/K2wEpWI1ZzyAhxpwXKhAJ3YNQ3LXAJe0ZjsHsg+Ach2vtrZQq3lYLXfiPw/TsEnmEVgVcXbN7p2e+bGh1y6kx1nIJuewP+U6bGaBWbgzUNDGgKBCrJCJE90J4Hw94MmPSnwJyfiF0jsbAejcT+p4Gw5Di/f5wWuSelrqP9DVMCFDyV74jAt0SAGp+v3gisFsz/CFbWkfGpm3phUWf+1Kadhp/OPwo0Q43VAA0OJVBNBCrICjzAl513sK07UyhwBVbDcbAZjSACAXB47gWDTNMCIeovS0p1na5O7d8m19F+FAjoEHhtAq9Fuq9Jui8QoFMC1PhQp8/jnwmQFRCc+WSzCjIF+msR7IF6DlmFeoHAuuYSQfenBDIE8DuHYwh8CEkY9o/5wfG5G5xenJicozXn3Ufs2rzH41T33xb4XigwAZWix1ic1YnPUlvwWRrJ9Wbyk4sld3lYXt77M4GOfyqwgpxE1Pyr19eTFSBHaFM56X4RNrbdw+b2bBj2pMK0/zIsBuPICEUSgSDYj52j4OHylRPs2nePCpF/qrlWJ13X0/5O4KcFfhBkRe4TfBxRC9mTNyB9jORUNmTP5EDOPX8qZ3Mhd+YO5E5mQfF0Jj69VIUlhS3vBJ+OCoPaxE1EgE0EaNDiVgpWYENLPr7syCIrkA6TvqvYORgF60fB2PfYC/ZPz+Lwi2MCAZevHLHSefnbb2yt4pcT62mvyVtwSkKt8CvIueVD8thtSLnmQ9qtCDIeJZD1qoCsTyXk/Kog7/8QCoJUkVRA0bcMCl73oXDmFpS9bmFJSesv4FcweOQUaiECjVhVz8BaTjW0uaUEvhCbeDkw6EiHYXcSTPsuwIIfjV1DIdg76iMQOPTsKA4/PwTnFw440L1zXIguIvIx6b6uEF67+q+YF9cMiWM5kDh9H5JnSyB1rgLS3tWQ8aNDNpAJueB6yIWyIU+iEM6BYjj5GVYPxVAGlEJqoRT0EEq+D6BIRD6JK8Vy2tvjRHVflckVjNBaTpVAQK85F/q82wKBbZ0pRCCBrEA4dg/5Yd8jN9g9dsXBsaM48twRzs/tcPSlLeZqKU7tBY1bfXxd2v9Cp/pvkPerhfipIkicLYWkRyUkvWmQ8mNBJpADmZAmyIa3QC6SB/modshHt0PhfDsUSZRieORnC5SiG6EUyYZyGAPKIdVQ8r6POcH5byQE889sgDqLhdX1NUSgggg8wIbmbOi3ZsKg7Rq2dybCuDsOFv2h2D3ojb0jZ2H/5CQOPjmEQ08d4PxsL46+sIZR5vqpE2l97etJCl6BdFfsTBnE3Coh7lkLSV8WJAO4kApuhnRYO2QiOiAT3QW58z2Qj+2FfFwfFOKp9EKRRCmhG0rxXVCKa4NyTAuUozhQDq+Dkn8Z5oQVCSRUGM1EgAM1JpOMEA1r2JVEoAB6LbexuTUFW9uuwKgrHqbdEdjRGwDrIQ/YDp+C3ejxNwKHx2xxZHwPHDqNxsn4nHLdQLqvRDo7+2wVxNyrIe7FgLgfBxKBzZAMaYdUeCekI3sIfB9kzvdBNrYfcnEDkI8nSeBD4QIfihcGoHSRT9JP0gflC91Qjm/DRzFN+CiSBeXACsy7WEUuNmwCz8AqVg00WBXQ4hRCq4EINGUSgWRs5SVge1ssTLvCYNHri10D7rAZPIH9w044MOoExyd2RMBGIHBkbMekiMY1busXd15A1K0Wsz3omO3JgpgfF+KBrZAI6YBkWDekInohFdUH6eh+IjAAmZgByMbxIRc/SASoUBKDULw4CKVLg6T7vO+l9oaniW92OCOub+8mbROSpRhU9WelgHIsza+HOpOO1axyIlAKbU4udBpyhAJJRCAe23lRMOsKIH8DecCqzwPW/JPYyz+M/UMOsB/Zj0NPrAm8FSUAkXVlf5mUCmiGqAcTop71mO3bCLEAHsSDOyAR2g2J8F5IRvQRgQFIRQ9AWiDAh0ws/42EHCVBBBTi+jHv2I1ngrl8R0lbB9ycE14GdUYFVjMfYA2rAJr1d7G+IQN6jdewuSkBW5rjYMgLhlmnPyy63bCr9wSs+w/Dlu9IBOyJgC0cRnYTiZ1wemIGEdXsl5h1jk3gGzDbpwmz/XkQC+qAWEg3xMN6IBHWC4mIfkhG9v9TCZlzNZDWO1ojZP3Vkt4TcGd5US00mEVYy8qBdv1N6DakY2NjIhGIhUFLJLa3BsOI5wvzjrOw7D6NXT1HYNN/APv41rAb2o0DwztxcGQHDj0mAvOTn2CWJxezvJsg6suDaEAHZgd1E4EeiIX1QTx8KtMSklFE5B8kpI/fh7i+9/dCxvfWkqySSQ3GPWixMkjSicA16HGvYFPjBWxtDiYr4A9jnjvMOtyws/soyRFY91ECNtg/aE0ErIiAOQ49MoGIAgGZ6d2CWT6tmOXfTgS6IUoEZof0QiyUhJIQirxLQsq9BhIGgRBVt7kt5HtvqcRnDq1lZEGTmQltIrCOTQQa4rGZG4It3EBsb/GAcasrzNqOYUf7EVh2HCQC+2Hbb439fCvYD1ri4LAJHEeMICIT2UcEWjHTt50IdGJWQBdEA3sgGtz7k0Tor0j4NBB4f0gYRWLm4i2eQr731qKT526tZZDuM1Ohw0rEelYsNrLDsZkTgC0NPjDgesCw+RRMWo9iR5sDLNoPYFeXLax7dsO2zxL7+01hzzfG3tYtEyIferfhQwI/07cDM/27iEA3ZlECQT3kzdqG3YllSMu7B255GnLC7OBkugbHnbZjl8sRmJwMw0eWUZA0jacE3IV87y1J1cW6mnVXoV13ATrMSwKBDawQ6LN9iYAnEXCDYdMJmDQ7wbzVngjYY3fXHlh3WWBvr8WUwIAx9BNXFYjM8OkkAh340K9TIDAzoAdzQ5sQmHELfdWXMM64iK+rPVGXoI/tKz+Gnf46bFOdj/QIB4xwctDHzoNXdCLmaJgGCvneW5957E3VoidMCdSdx3pmpEBgE8sTWzjnsK3hGIwaSYOaHYmAHSx41tjZbo09neaw6TaHbY8x9vUaTkp8PHs+EeiAQMKvi6QbBrFl6KyIxBgzGmOV7mhI3oZY509hpCELY7Xl4F7xxpGNKog7Y4385POoyUlGWUoEuDV5r7dt1TcXMv7TWlUcOaFFiyMCsUQgCrqMIOgxfbGJ6Y4t7LMw4ByHIfcgTJvtYdq0FztabWDJs8BOnjl2t5vApnM7udispQk+7AMv3usZvtQqdMEt9TaeVnljsMABnBQDxB2dD+vNcvB3XYdDZuvhuG4V+pK9keRijiA7c0S4n8R5Pw9wk4LRyynGo7HByZPHj/l+QErw4e+oeU4mEZq1F8gdg8DTg7Ge7g/dugDoMbywkXEGm+tdsZXjjO0NDjBu3A8zImDetAuWreawajMTCFg1bfvpfvzBGfbEn3y6YB6bh7abu1ARq4EIpzkw1ZoNS/1PkRVpgLG2M7A21Ieq0lxkOhpg67Ll8LDaAXZOKPIuByHb1xXf9BZj4kk9xvlcWOwwdhB+/Fs1S1lu/prq85OaNZHQqg0j940AIuADXbongT8rENjCcsZWtiO21tvDkLMXJlwrIrATO5rMYdliCgvOth/E55LReVO2GTR1v3tI9/4cfrZK2K4hCi0VOcR6W+Dr9ki8ZPvjWkIOVJZqY838xSjyd0Z+qA8e5HPR31CGFFcbXHNzwY8jFfi/Z7V4OVSHlgbG33U0VxsIn/CmKIG1VcGvNWvCoF0bBJ1aX/InvBcRcCfwp6DPcMYWBgV/ANvqbWHI3gPTRiuYNVrAotkcRhUG42JvwVO1dr+rub0ZdFd8CNVFMthvpoarQdvwbW8K4pz0EezvA7/QfPzPnC/g7+CMV+wyfN/DRW/vd+hmP8F5RzsEuRxGQUk5ApPuoLquBv28EgT6HS8UPuGtkt+kukezyv+1Tq0P1tV6Yn2tOxFww8a6o0TgMBFwwJdMB2xj7SUCu2DSYAEzrtmkZsyad1/mZ84Q+UhZ9k+ThhsWg5V3EuPcAIxywvGyNRaHDJbijJs/dlv7YM5Harhztw11dY9Ry/ka7Z0TeDzwFcLOucPvzEkEXcrE7rNRSLuVhcqSREQm+E/KysvNFT7mF/XpoU0Rq2868bXLT/ywgXYCG+ku0K9zwua6gzBg7iOxntxUZDau6q2eKjZH7Ne/1Pp4roLz5UhHjLAj8JiMy5OGYLxoi0c/Mxy8Ci/Qax5CU9cRa1abIr94BLlFA6ioHQOrbgBM2gCKc9ORn5+CckY1sm5cQmpiIIrvxZPfXYaRqYGz8DH/uboaf4zW25SEVvp59NdHopMWgtaaUHSy4sAqDcbdu7k4fOwqNuvZ4VJmJzLv9oDJeoqaujHcr3mODvJncUV2LPJSgpAUfQK5tyJRdj8GefcS4O11bOqo+09WQVbIN8zyS2hjpoFXdw3tJDzaVXCrE5F7PRyebqcQHhaN5KQicIpqkJPdhILCXnTWNGGgoRn08nRcCj+ESK9dCD5ngeCgI7iWeAo30s4h6ZLXpOgKiwjho/4zVXAz6kf6g4uoK7mA6oJYVORGoDI/Gg/yLiIpMQDn49wRFOGDK9dK0ZKWCG5eKW5mNYKXfBHND/IQE3AcQWctcTHcDrkZZ3E12glFd4NQXRyJ4jvhkN6ZDCnThIkZCot/1/f9H8p9piu6YMMv//mRneL+Y2GGL+7fDEBxdjjKCxNQnH8B8Qk+iI7zhIffSRxwPoLzqU3IzKgjx2cjCsoGUfqgB128MSTF+CHwjBXiQg/icpQjzh7ZhpJ7Mbh/Nwp5ZJwoAUEsr0HKJG5CbNW+1A/E5P/lb5pnLzOOkNL35ssZx0LOOAZinxu+vaJpiV4jD8uugPYwDbTqLBQ/SEZGViyiL4TAK+QcbA+Qq5uzMy7eHUR64ShuFQ/j5oPHqK5/hcHeV/B2P4Gzx3eiMCcaEW4muBRqh9LcaNzJCEJGRsJbAtKWSZCxuCqItFHMhOQmz1YJ3VO0WQv1XWct3OQqSiK+1rFAUucETXp7+ISMcdykrEkcqFACskbnJz+UW/D2Svr5uhRWV99CTU0uCotuIzs3Czfyc+Aa4Isvt+lhhcpSnPP2RHrRY5QyvsLdsqe4XjAKTtO3YFaz4HFqH64neSEu+CDOHfoSNy+7ozA7GjdS/RGZSEB/RUBmRyLJFZLLkDGncgmyZhdJLkDWlEoCAY8XwE8LiKvu+uV/bMzMjV1LKkpwr7wc9xiNoA0/R3JRJTYZboeUnDw+nj8fJ1xP4GbJMEqZX6OwahwZBYNo471CxrVkxEa74XyQI5xtNsDFVg9X41yRdycS2dcDcSA4/Q8TkNI90ypEfrvmLVi4LLOiAbfZA2B8PYnc+hbsOHAEcvMWQkxOCYtWrkR4tC8ZnV6U0F+igj6OW4UDaG58ivu5N5F82QcezsbwPW2JKzGnUUPuDS3MbDRUpmK5Y9ofIkDtASHuuys06UZ5FnsI14oewsb5NOQXa0Bh3gIof7YQLqdskZQcg+t5bSgnK0BnjiG7qA9s9hjyslNJx0+TkYkHuy4b3U1F6OUWgN9SiOs59yBtlfK7Bd4LT9XcTxcsC0u68eMxd2+obTCE2JxFWLJaAwGRPggOO4G9dg5Iu8tDLdm4dcynuFHQDwZzlGz8fLQ3lePpQD1ejXDwaqgez/po6Gt+gCUO13+3gOQGt3ePzbtq0dJlDl9o6EJm3udQWLQUuw7YICI+ENp62tDR246bBd2oZrxAFe0JMvL4YNYP4/kgFy/4LDzvY2DicQu+GePh2yctcIjKI/Cpv1lAxiRhcvYyk3//BSijqBw4X3UV9jjaIpC8vLT11mPB0iVwOnYKd0qGUElOobLqJ0i/148GTh+eddeC31yOwZYKjHbW4vkwBwEpRZCahv8NAtJbQ8ZnyC/87S+9xcs+N/fy9/vW+bgLnI46IzUjGeVV5bhbPoqq+m9QWvUIGbl9aGJ3YLi1DEOtVRjmVaGj8SG+vNwMUaciSFhcEcBOwRNwKu8RkDaKmqDeA0KM31cKioqfevl4FnMbWWhqqAGbUYu8ykeo4UygsuYRsu4NktlvxRABH2l7iLRSBj4JbcefvLtA3e5meLVD9Fg1xPffgTTprDQBFsSSgifgQkEpmwxIbfYdpF5kwkf/sbVGY5Xe6RMuAfExMaWJ6bW91fTh78oqer9LTK3uS70cV+rqYh+opbFSj7oUidim00TI9fQDz7bXlIRAhNyzZ/h2Y5ZHE0TdORBzpUP2VNX/fnS86Ns5exOYwsf8jhIR+X/qwTyAMWvtYQAAAABJRU5ErkJggg==" InformativeScreenshot="b04809f5e2f09d5bbd1ca0529c011ede.jpg" Selector="&lt;html app='msedge.exe' title='Booking.com | Official site | The best hotels, flights, car rentals &amp;amp; accommodations' /&gt;" Title="Booking.com | Official site | The best hotels, flights, car rentals &amp; accommodations" Url="https://www.booking.com/" />
+                </uix:NApplicationCard.TargetApp>
+              </uix:NApplicationCard>
+            </Sequence>
+          </ActivityAction>
+        </ui:OpenBrowser.Body>
+      </ui:OpenBrowser>
+    </Sequence>
+  </Sequence>
+</Activity>
